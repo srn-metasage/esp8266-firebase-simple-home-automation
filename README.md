@@ -65,7 +65,9 @@ This project demonstrates how to build a simple WiFi-based home automation syste
 6. Go to Project Settings > General and copy:
    - Database URL
    - Web API Key
-7. In the database root, add:
+7. In the **database root**, add:
+   
+   ```json
    {
      "relay1state": 0,
      "relay2state": 0
